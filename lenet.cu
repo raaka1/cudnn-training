@@ -129,7 +129,7 @@ DEFINE_string(test_images, "t10k-images-idx3-ubyte", "Test images filename");
 DEFINE_string(test_labels, "t10k-labels-idx1-ubyte", "Test labels filename");
 
 // Solver parameters
-DEFINE_double(learning_rate, 0.04, "Base learning rate");
+DEFINE_double(learning_rate, 0.06, "Base learning rate");
 DEFINE_double(lr_gamma, 0.0001, "Learning rate policy gamma");
 DEFINE_double(lr_power, 0.75, "Learning rate policy power");
 
